@@ -27,7 +27,14 @@ We have created a robot with improved __*portability*__ than Tennibot, a represe
 - __*Object detection*__ through *Yolov4*.
 - __*Object tracking*__ through the distance value of depth camera(intel realsense D435) and object detection.
 - __*Search driving*__ function that is implemented when no object exists on the frame.
-- __*Avoiding obstacles*__ through lidar values (if obstacles is a wall or if obstacles is not a wall)
+- __*Avoiding obstacles*__ through lidar values (if obstacles is a wall or if obstacles is not a wall)  
+   
+ 사용환경 기술 필요
+ 
+ 하드웨어 구성도 기술 필요  
+ 
+ 각 기능 코드 설명 기술 필요  
+ 
 
 
 
