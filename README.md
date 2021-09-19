@@ -1,13 +1,12 @@
 Smart-BallBot
 ================
+<div align=center><h4> Thank you for inspiring this project, Tennibot. </h4></div>
 
-Thank you  __TenniBot__ for inspiring this project.  
-  
-  
-　　　　　　　　　　　　　　　　　　　　　　　*[Real driving]*
-
-<img src="./gif/real_driving.gif" width="400" height="300"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./gif/real_driving_cam.gif" width="300" height="300">  
+------------------------------------------------------------------------------------------
+ 
+ <div align=center><h3> [Real driving] <h3></div><br>  
+   
+ <div align=center> <img src="./gif/real_driving.gif" width="400" height="300">　　　<img src="./gif/real_driving_cam.gif" width="300" height="300"> </div>
 
   
 ## What is Smart-BallBot?  
