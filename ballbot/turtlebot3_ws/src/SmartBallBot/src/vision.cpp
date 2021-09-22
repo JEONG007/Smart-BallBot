@@ -27,11 +27,10 @@ const float inScaleFactor = 1/255.f;
 const float meanVal       = 127.5;
 std::vector<string> outNames;
 
-//모델 변경가능(아직 v5는 x)
+//모델 변경가능
 std::string yolo_tiny_model ="/home/posteck/turtlebot3_ws/src/SmartBallBot/data/yolov4_best.weights";//yolov4.weights enetb0-coco_final.weights
 std::string yolo_tiny_cfg =  "/home/posteck/turtlebot3_ws/src/SmartBallBot/data/yolov4.cfg";//yolov4.cfg enet-coco.cfg
 std::string classname_path="/home/posteck/turtlebot3_ws/src/SmartBallBot/data/obj.name";
-//std::string yolov5s = "/home/piai/hustar_ballbot/src/vision/data/last.onnx";
 
 int main(int argc, char **argv)
 {
@@ -72,13 +71,6 @@ int main(int argc, char **argv)
   for (int i = 0; i < outNames.size(); i++) {//Layername 출력
       printf("output layer name : %s\n", outNames[i].c_str());
   }
-//  ifstream classNamesFile(classname_path);
-//  if (classNamesFile.is_open())
-//  {
-//      string className = "";
-//      while (std::getline(classNamesFile, className))
-//          classNamesVec.push_back(className);
-//  }
   auto start = std::chrono::high_resolution_clock::now();
   int frame = 0;
   while(ros::ok())
@@ -179,11 +171,6 @@ int main(int argc, char **argv)
     imshow("Display depth Image", depth_mat);
 
     if(waitKey(1)>=0) {
-//        auto finish = std::chrono::high_resolution_clock::now();
-//        std::chrono::duration<double> elapsed = finish - start;
-//        ss << "FPS: " << frame / elapsed.count() <<std::endl;
-//        putText(color_mat, ss.str(), Point(0, 10), 0, 0.5, Scalar(255, 0, 0));//FPS출력
-////        std::cout<<"FPS "<<frame / elapsed.count() <<std::endl;
         break;
     }
 
