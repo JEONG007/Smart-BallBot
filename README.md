@@ -40,8 +40,8 @@ We have created a robot with improved __*portability*__ than Tennibot, a represe
 |pvc pipe|c++|
 |plywood|python2.7|
 
-##  
- 
+## FlowChart
+  <div align=left><img src="./img/flowchar.png" width="600" height="400">  </div><br>
 ## Hardware Architecture
  <div align=left><img src="./img/hardwarearchitecture.png" width="600" height="400">  </div><br>  
 
