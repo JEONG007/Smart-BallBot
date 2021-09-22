@@ -1,0 +1,12 @@
+[submodule "hls_lfcd_lds_driver"]
+	path = hls_lfcd_lds_driver
+	url = https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
+[submodule "ballbot/turtlebot3_ws/src/turtlebot3"]
+	path = ballbot/turtlebot3_ws/src/turtlebot3
+	url = https://github.com/ROBOTIS-GIT/turtlebot3.git
+[submodule "ballbot/turtlebot3_ws/src/turtlebot3_msgs"]
+	path = ballbot/turtlebot3_ws/src/turtlebot3_msgs
+	url = https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+[submodule "ballbot/vision_opencv"]
+	path = ballbot/vision_opencv
+	url = https://github.com/ros-perception/vision_opencv.git

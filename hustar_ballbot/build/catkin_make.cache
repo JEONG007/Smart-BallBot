@@ -1,2 +1,0 @@
-vision
--DCATKIN_ENABLE_TESTING=False -DCMAKE_BUILD_TYPE=Release -DCATKIN_DEVEL_PREFIX=/home/piai/hustar_ballbot/devel -DCMAKE_INSTALL_PREFIX=/home/piai/hustar_ballbot/install -G Unix Makefiles

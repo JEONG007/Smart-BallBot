@@ -1,1 +1,0 @@
-set(ORDERED_PATHS "/opt/ros/melodic/lib;/home/piai/catkin_build_ws/src/vision_opencv/cv_bridge/build/devel/lib")

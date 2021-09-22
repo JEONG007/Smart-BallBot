@@ -1,8 +1,0 @@
-prefix=/home/piai/hustar_ballbot/devel
-
-Name: realsense_d435
-Description: Description of realsense_d435
-Version: 0.0.0
-Cflags: -I/home/piai/hustar_ballbot/devel/include -I/home/piai/hustar_ballbot/src/ROS-Object-Detection-2Dto3D-RealsenseD435/realsense_d435/include
-Libs: -L${prefix}/lib 
-Requires: geometry_msgs message_generation message_runtime roscpp rospy std_msgs sensor_msgs cv_bridge image_transport
