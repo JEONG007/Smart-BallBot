@@ -1,6 +1,6 @@
 Smart-BallBot
 ================
-<div align=center><h3> Thank you for inspiring this project, Tennibot. </h3></div>
+<div align=center><h3> Thank you Tennibot for inspiring this project. </h3></div>
 
 ------------------------------------------------------------------------------------------
  
