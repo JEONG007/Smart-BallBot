@@ -34,10 +34,10 @@ We have created a robot with improved __*portability*__ than Tennibot, a represe
  4. code : vision.cpp, main.py, chase_the_ball.py
 - __*Search driving*__ function that is implemented when no object exists on the frame.
  <div align=left><img src="./img/find_ball.png" width="600" height="400">  </div><br>  
- 1. Using the angle of reflection
- 2. code : main.py, chase_the_ball.py
+ 1. Using the angle of reflection  
+ 2. code : main.py, chase_the_ball.py  
 - __*Avoiding obstacles*__ through lidar values (There are two cases where the obstacle is a wall and not a wall.) 
- <div align=left><img src="./img/ob_avoid_flow.png" width="600" height="400">  </div><br>  
+ <div align=left><img src="./img/ob_avoid_flow.png" width="300" height="400">  </div><br>    
  1. code : ob_avoid.py, chase_the_ball.py
    
 
