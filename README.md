@@ -37,7 +37,7 @@ We have created a robot with improved __*portability*__ than Tennibot, a represe
  1. Using the angle of reflection  
  2. code : main.py, chase_the_ball.py  
 - __*Avoiding obstacles*__ through lidar values (There are two cases where the obstacle is a wall and not a wall.) 
- <div align=left><img src="./img/ob_avoid_flow.png" width="300" height="400">  </div><br>    
+ <div align=left><img src="./img/ob_avoid_flow.png" width="300" height="600">  </div><br>    
  1. code : ob_avoid.py, chase_the_ball.py
    
 
