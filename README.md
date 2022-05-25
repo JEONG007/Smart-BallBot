@@ -33,11 +33,12 @@ We have created a robot with improved __*portability*__ than Tennibot, a represe
  3. Otherwise, set angular.z between -1 and 1 value through the cosin function.
  4. code : vision.cpp, main.py, chase_the_ball.py
 - __*Search driving*__ function that is implemented when no object exists on the frame.
- 1. angle of reflection, spiral 구현(사진 첨부 예정)
+ <div align=left><img src="./img/find_ball.png" width="600" height="400">  </div><br>  
+ 1. Using the angle of reflection
  2. code : main.py, chase_the_ball.py
 - __*Avoiding obstacles*__ through lidar values (There are two cases where the obstacle is a wall and not a wall.) 
- 1. 장애물 만났을 땐 회피 후 turn까지, 벽이면 반사각으로 회전
- 2. code : ob_avoid.py, chase_the_ball.py
+ <div align=left><img src="./img/ob_avoid_flow.png" width="600" height="400">  </div><br>  
+ 1. code : ob_avoid.py, chase_the_ball.py
    
 
  
